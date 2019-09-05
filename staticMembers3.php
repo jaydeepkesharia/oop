@@ -20,5 +20,6 @@ class abc {
 $a = new abc();
 $b = new abc();
 $c = new abc();
+$d = new abc();
 
 echo abc::getCount();

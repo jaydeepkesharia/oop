@@ -11,7 +11,7 @@ abstract class BaseEmployee {
 		return $this->firstname." ".$this->lastname;
 	}
 
-	public abstract function getMonthlySalary(); // if u don't override this method in extended classes then error will accour so u have to override this abstract method in every class 
+	public abstract function getMonthlySalary(); // if u don't override this method in extended classes then error will accour so u have to override this abstract method in every extended class 
 
 	public function __construct($f,$l)
 	{

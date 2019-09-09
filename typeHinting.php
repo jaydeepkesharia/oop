@@ -1,6 +1,6 @@
 <?php
 
-//Type Hinting
+//Type Hinting with inteface
 interface test {
 	public function doSomething();//must be declare this method at every extended class
 }

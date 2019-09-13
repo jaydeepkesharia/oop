@@ -1,7 +1,8 @@
 <?php 
 
+//namespace App\Http\controller; //non bracketed namespace with sub namespaces
 
-namespace def {
+namespace def { // bracketed namespace
 	
 	class xyz {
 		public function __construct()
